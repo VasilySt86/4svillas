@@ -1,0 +1,1321 @@
+.header .logo {
+	width: 7.5rem;
+}
+.header .logo.logo-new {
+    width: 10rem;
+}
+.header .v-align-middle > .button:not(.nav-icon):hover {
+	background: #5fba7d;
+}
+.header-background .v-align-middle > .button:not(.nav-icon) {
+	background: #fff;
+	border-color: #ddd;
+	color: #bbb;
+}
+body.mobile .header .v-align-middle > .button:not(.nav-icon) {
+	background: transparent;
+	border-color: #999;
+	color: #000;
+}
+.header-background .v-align-middle > .button:not(.nav-icon):hover {
+	background: #5fba7d;
+}
+body.mobile .header .v-align-middle > .button:not(.nav-icon):hover {
+	background: #5fba7d;
+	color: #fff;
+	border-color: transparent;
+}
+/* Transparent Header Initial & Active Nav Colors */
+body#new-index .header-transparent .header-inner{
+    background-color: #7c7269;
+}
+body#new-index .header-transparent .header-inner > .nav-bar{
+    border-bottom: 0px;
+}
+body#new-index .header .header-inner{
+    background-color: #7c7269;
+    border-bottom: 1px solid #7c7269;
+    box-shadow: rgba(0, 0, 0, .4) 0 4px 16px;
+}
+/* Background Header - On Scroll! */
+body#new-index .header-background .header-inner{
+    background-color: #7c7269;
+    border-color: #7c7269;
+    border-bottom: 1px;
+}
+body#new-index .header-background .header-inner > .nav-bar{
+    border-bottom: none;
+}
+body#new-index .header .navigation > ul > li.current > a,
+body#new-index .header .navigation > ul > li > a:hover{
+    color: #fef7ef;
+    opacity: 1;
+}
+body#new-index .header .navigation > ul > li > a{
+    color: #fef7ef;
+    opacity: 0.5;
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body#new-index .book-now-button-desktop {
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body#new-index .header .navigation > ul > li.current > a,
+body#new-index .header .navigation > ul > li > a:hover{
+    color: #fef7ef;
+    opacity: 1;
+}
+body#new-index .header .navigation > ul > li.current > a:hover{
+    color: #fef7ef;
+}
+.navigation .sub-menu {
+	background: #fff;
+}
+.navigation .sub-menu:not(.custom-content) a {
+	background: #fff;
+}
+.navigation .sub-menu li a {
+	color: #444;
+}
+body#new-index .navigation .sub-menu:not(.custom-content) li:hover > a,
+body#new-index .navigation .mega-sub-menu:not(.custom-content) ul li:hover > a,
+body#new-index .navigation .dropdown-list:not(.custom-content) li:hover a{
+    background-color: #7c7269;
+}
+#home .section-block.tm-slider-parallax-container,
+body#new-index .section-block.hero-5 {
+    overflow: visible;
+}
+body#new-index .hero-5 {
+    height: 35rem;
+}
+
+h3.text-normal {
+    text-transform: none;
+}
+.slider-villa-buttons {
+    position: absolute;
+    right: 0;
+    top: 460px;
+    width: 620px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #7c7269 !important;
+    box-shadow: rgba(0, 0, 0, .4) 0 4px 16px;
+}
+.slidr-btns {
+    margin: 0px;
+    width: 150px;
+    height: 75px;
+    border: none;
+    background: transparent;
+    color: rgba(254, 247, 239, 0.5);
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing:3px;
+}
+.slidr-btns:hover {
+    background: transparent;
+    color: rgba(254, 247, 239, 1);
+}
+.slider-villa-buttons button {
+    border-right: 1px solid rgba(254, 247, 239, 0.5);
+}
+.slider-villa-buttons button:last-child {
+    border-right: 0px;
+}
+.main-text-header {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #4e433d;
+    line-height: 1.4em;
+    font-size: 1.1em;
+    margin-top: 3.5rem !important;
+}
+#concept .thumbnail > a {
+	width: auto;
+}
+#villa-sun h2, #villa-sea h2, #villa-sky h2, #villa-sand  h2 {
+	font-weight: 300;
+}
+.text-xsmall {
+	font-size: 1.1rem;
+	line-height: 1.4;
+}
+.title-medium-small {
+	font-size: 2.5rem;
+	line-height: 1;
+}
+.title-xsmall {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+.bkg-green-gradient {
+	background: -o-linear-gradient(bottom, #f5fffa 0%, #6fa25e 100%);
+	background: -moz-linear-gradient(bottom, #f5fffa 0%, #6fa25e 100%);
+	background: -webkit-linear-gradient(bottom, #f5fffa 0%, #6fa25e 100%);
+	background: linear-gradient(to top, #f5fffa 0%, #6fa25e 100%);
+}
+.bkg-green-white-gradient {
+    background: -o-linear-gradient(bottom, #ffffff 0%, #6fa25e 100%);
+    background: -moz-linear-gradient(bottom, #ffffff 0%, #6fa25e 100%);
+    background: -webkit-linear-gradient(bottom, #ffffff 0%, #6fa25e 100%);
+    background: linear-gradient(to top, #ffffff 0%, #6fa25e 100%);
+}
+.color-sky {
+    color: #3ea5c1;
+}
+.bkg-sky {
+    background: #3ea5c1;
+    border-color: #3ea5c1;
+}
+.bkg-hover-sky:hover {
+    background: #3792ab;
+    border-color: #3792ab;
+}
+.testimonial-slider.guest-reviews cite {
+	color: #000;
+}
+.testimonial-slider.guest-reviews {
+	min-height: 29rem !important
+}
+.grid-container.insta-grid .content-grid-6 .grid-item {
+	width: 12.5%;
+}
+.villas-block .caption-over-outer {
+    top: 0 !important;
+}
+.overlay-info .project-description {
+    font-style: normal;
+    line-height: 1.6rem;
+    margin: 0rem 2rem 2rem 2rem;
+}
+.villas-block .thumbnail {
+    margin-bottom: 0;
+}
+/* Slider */
+.featured-media .tms-pagination {
+    display: none !important;
+}
+.featured-media .tms-pagination a {
+    display: inline-block;
+    margin-bottom: 0rem;
+    line-height: 10rem;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+}
+.featured-media .tms-pagination a:after {
+    content: '';
+    width: 1px;
+    height: 6.5rem;
+    background-color: #b8aea4;
+    display: block;
+    position: absolute;
+    top: 5rem;
+}
+.featured-media .tms-pagination a:first-child:after {
+    display: none;
+}
+.featured-media .tms-pagination .feature-text {
+    line-height: 0;
+}
+.picture-nav.active span,
+.picture-nav.active .feature-text {
+    color: #000;
+}
+.featured-media .tms-pagination.villa-pagination-pics {
+    width: 100%;
+    bottom: 0rem;
+    display: table !important;
+    background: #fff;
+}
+.villa-pagination-pics > .tms-bullet-nav {
+    background: transparent;
+    width: 17%;
+    height: 15rem;
+    margin: 0;
+    display: inline-block;
+    background: #fff;
+    opacity: 1;
+    border-radius: 0%;
+}
+.tms-content-inner.v-align-bottom.big-slider-logo {
+    padding-bottom: 14rem;
+    opacity: 0.7;
+    vertical-align: bottom
+}
+.tms-content-inner.big-slider-logo .tms-caption {
+    background: #000;
+    padding: 3rem 10rem;
+}
+/* Gallery */
+button.fancybox-arrow:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+.footer .copyright a {
+	font-size: 1.1rem;
+}
+.footer .copyright a:hover {
+	color: #a29587;
+}
+.footer .res-footer-link {
+    color: #fff !important;
+    font-size: 1.1rem !important;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border: 1px solid #fff;
+    padding: 1rem 2.5rem;
+}
+.footer .res-footer-link:hover {
+    color: #a29587 !important;
+    border: 1px solid #a29587;
+}
+.footer .widget.widget-contacts {
+    margin-bottom: 5rem !important;
+}
+.hero-5-1 .media-column {
+	background-image: url(../images/4s-villas-seminyak-bali@2x.jpg);
+}
+.villa-sun-big-bg {
+	background-image: url(../images/villa_sun_bg.jpg);
+}
+.villa-sea-big-bg {
+	background-image: url(../images/villa_sea_bg.jpg);
+}
+.villa-sky-big-bg {
+	background-image: url(../images/villa_sky_bg.jpg);
+}
+.villa-sand-big-bg {
+	background-image: url(../images/villa_sand_bg.jpg);
+}
+.bkg-reviews {
+	background: url(../images/blur_bg.jpg) center top fixed;
+}
+body.mobile .bkg-reviews {
+    background: url(../images/blur_bg.jpg) top left;
+}
+body.about .section-block.featured-media, body.about .featured-media .tm-slider-container {
+    background-color: #fff;
+}
+/* Calendar */
+#ui-datepicker-div {
+    display: none
+}
+#ui-datepicker-div:before {
+    border-bottom: 10px solid #fff;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: 15px
+}
+.ui-datepicker {
+    width: 270px;
+    height: auto;
+    margin: 5px auto 0;
+    padding: 20px;
+    background: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-box-shadow: 0 6px 18px 1px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 6px 18px 1px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 18px 1px rgba(0, 0, 0, 0.12)
+}
+.ui-datepicker a {
+    text-decoration: none
+}
+.ui-datepicker table {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-collapse: collapse
+}
+.ui-datepicker-header {
+    background: #fff;
+    color: #444;
+    line-height: 36px;
+    border: 0px solid #fff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px
+}
+.ui-datepicker-title {
+    text-align: center;
+    font-size: 13px
+}
+.ui-datepicker-title .ui-datepicker-month {
+    letter-spacing: 1px
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 0px
+}
+.ui-datepicker-prev {
+    float: left;
+    background-position: center -30px
+}
+.ui-datepicker-next {
+    float: right;
+    background-position: center 0px
+}
+.ui-datepicker-prev .ui-icon:before {
+    content: "\f104";
+    font-family: 'FontAwesome';
+    font-size: 2.3rem;
+    color: #c6c6c6
+}
+.ui-datepicker-next .ui-icon:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    font-size: 2.3rem;
+    color: #c6c6c6
+}
+.ui-datepicker-prev:hover .ui-icon:before, .ui-datepicker-next:hover .ui-icon:before {
+    color: #444
+}
+.ui-datepicker thead {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0
+}
+.ui-datepicker tbody:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px
+}
+.ui-datepicker tr {
+    border: none;
+    background-color: #fff
+}
+.ui-datepicker th {
+    font-size: 10px;
+    padding: 10px 0;
+    color: #a1a1a1;
+    text-align: center;
+    border: none;
+    background: #fff;
+    font-weight: normal
+}
+.ui-datepicker th:first-child, .ui-datepicker tbody td:first-child {
+    padding-left: 10px
+}
+.ui-datepicker th:last-child, .ui-datepicker tbody td:last-child {
+    padding-right: 10px
+}
+.ui-datepicker tbody td {
+    padding: 0;
+    border-right: 0px solid #fff;
+    border-bottom: 0px solid #1f1f1f
+}
+.ui-datepicker tbody td:last-child {
+    border-right: 0px
+}
+.ui-datepicker tbody tr {
+    border-bottom: 0px solid #fff
+}
+.ui-datepicker tbody tr:last-child {
+    border-bottom: 0px
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: inline-block;
+    text-align: center;
+    font-size: 11px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #545b64
+}
+.ui-datepicker-calendar .ui-state-default {
+    background: #fff
+}
+.ui-datepicker-unselectable .ui-state-default {
+    background: #fff;
+    color: #c6c6c6
+}
+.ui-datepicker-calendar .ui-state-hover {
+    background: #5fba7d;
+    color: #fff;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px
+}
+.ui-datepicker-calendar .ui-state-active {
+    background: #ccc;
+    color: #fff;
+    position: relative;
+    margin: 0px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px
+}
+.ui-state-active:hover {
+	background: #5fba7d;
+}
+.ui-datepicker-calendar td:first-child .ui-state-active {
+    width: 29px;
+    margin-left: 0
+}
+.ui-datepicker-calendar td:last-child .ui-state-active {
+    width: 29px;
+    margin-right: 0
+}
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+    height: 29px;
+    margin-bottom: 0
+}
+.field-wrapper.cal-icon:after {
+    content: "\f073";
+    font-family: 'FontAwesome';
+    font-size: 1.8rem;
+    line-height: normal;
+    color: #888;
+    position: absolute;
+    top: 1.8rem;
+    right: 1.8rem;
+    pointer-events: none
+}
+/* Book Now Block */
+.book-now-block {
+    overflow: visible;
+    position: relative;
+}
+.book-now-block input, .book-now-block select {
+    border: 1px solid #ededed;
+    color: #333;
+    font-weight: 400;
+    border-radius: 0;
+    cursor: pointer;
+}
+.book-now-block input:not([type=button]), .book-now-block select {
+    font-size: 1.3rem;
+}
+.book-now-block input:focus {
+	border: 1px solid #d4d4d4;
+}
+.book-now-block input.button {
+	margin-bottom: 0;
+	line-height: 1.5rem;
+	border: 1px solid #5fba7d;
+	color: #fff;
+	background: #5fba7d;
+	text-transform: uppercase;
+}
+.book-now-block input.button:hover {
+	color: #fff !important;
+	background: #55a670;
+}
+.book-now-block ul {
+    margin: 0;
+    padding: 0
+}
+.book-now-block li {
+    position: relative;
+    float: left;
+    width: 33.33333%;
+    padding: 0 1rem
+}
+.book-now-block li label {
+	font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.book-now-block li.form-select select {
+    margin: 0
+}
+.bnow-buttons-block li {
+	width: 25%;
+	float: right;
+}
+.bnow-buttons-block a.button {
+	margin-bottom: 0;
+	line-height: 1.5rem;
+	border: 1px solid #ccc;
+	color: #aaa;
+	background: transparent;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 0;
+	cursor: pointer;
+}
+.bnow-buttons-block a.button:hover {
+	color: #fff !important;
+	background: #5fba7d;
+	border-color: #5fba7d;
+}
+.book-now-block i {
+    position: absolute;
+    width: 4.3rem;
+    height: 4.3rem;
+    font-size: 1.5rem;
+    line-height: 4.3rem;
+    color: #c4c4c4;
+    right: 1rem;
+    top: 3rem;
+    text-align: center;
+    transition: .25s;
+    cursor: pointer;
+}
+.book-now-block i:hover{
+	color: #999;
+}
+.book-now-av-link {
+	position: relative;
+}
+/* Input Number Selector */
+.input-number {
+    position: relative;
+}
+input.form-input {
+	text-align: center;
+	margin-bottom: 0;
+}
+.input-number__control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    width: 4.3rem;
+    height: 4.3rem;
+    outline: none;
+}
+.input-number__control:after, .input-number__control:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #c4c4c4;
+    -webkit-transition: .25s;
+    transition: .25s
+}
+.input-number__control:before {
+    content: '';
+    width: 1.1875rem;
+    height: 1px
+}
+.input-number__control:hover:after, .input-number__control:hover:before {
+    background-color: #999
+}
+.is-disabled > .input-number__control {
+    cursor: default;
+    opacity: 0;
+    pointer-events: none
+}
+.is-disabled > .input-number__control:hover:after, .is-disabled > .input-number__control:hover:before {
+    background-color: #c4c4c4
+}
+.input-number__control--minus {
+    left: 0
+}
+.input-number__control--plus {
+    right: 0
+}
+.input-number__control--plus:after {
+    content: '';
+    width: 1px;
+    height: 1.1875rem
+}
+/* Reservation Form */
+.contact-form-container .reservation-form {
+    position: relative;
+}
+.reservation-form input, .reservation-form select, .reservation-form textarea {
+	font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+	letter-spacing: 0;
+}
+.reservation-form .form-element, .reservation-form textarea{
+	border: 1px solid #e7e7e7 !important;
+}
+.reservation-form label.error {
+	color: #ff2424;
+	margin-bottom: 2rem;
+}
+.reservation-form input.error {
+	background-color: #eee;
+}
+.reservation-form input.required-field.valid {
+	background-color: #f4f4f4;
+}
+.contact-form-container input[disabled=disabled][type=submit] {
+	color: #777;
+	background-color: #ddd;
+	border: 1px solid #ddd;
+}
+.contact-form-container input[disabled=disabled][type=submit]:hover {
+	color: #777;
+	background-color: #ddd;
+	border: 1px solid #ddd;
+}
+#check-in-date:after, #check-out-date:after, #checkin:after, #checkout:after {
+	content: "\f073";
+	font-family: 'FontAwesome';
+	font-size: 1.8rem;
+	line-height: normal;
+	color: #777;
+	position: absolute;
+	top: 1.8rem;
+	right: 3.6rem;
+	pointer-events: none
+}
+#checkin:after, #checkout:after {
+    color: #bbb;
+}
+#checkin, #checkout, .required-field {
+    position: relative;
+}
+.contact-form-container input#saveForm {
+    text-transform: uppercase;
+    border-radius: 0;
+}
+#form4 input:not(.form-submit), #form4 select, #form4 textarea {
+    background-color: #fff;
+}
+#form4 input:not(.form-submit):focus, #form4 textarea:focus, #form4 .form-select:active {
+    border: 1px solid #ccc !important;
+}
+#form4 select {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#form4 .form-select:after {
+    top: 1rem;
+    right: 1.5rem;
+    color: #bbb;
+    font-size: 2.5rem;
+}
+#form4 label.error {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ff2c05;
+    font-size: 1rem;
+}
+#form4 input.error, #form4 input.error:focus {
+    border: 1px solid #ff2c05 !important;
+}
+.bkg-left-bottom-image {
+    background-image: url("../images/dark-left-bottom.svg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 30em;
+}
+.bkg-left-bottom-orange {
+    background-image: url("../images/orange-left-bottom.svg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 30em;
+}
+.bkg-left-bottom-blue {
+    background-image: url("../images/blue-left-bottom.svg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 30em;
+}
+.bkg-left-bottom-sky {
+    background-image: url("../images/sky-left-bottom.svg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 30em;
+}
+.check-availability-button {
+    background: transparent;
+    border: 1px solid #999;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 1.3rem 2.5rem;
+    display: inline;
+    width: 100%;
+}
+.check-availability-button:hover {
+    background: #5fba7d;
+    border: 1px solid #5fba7d;
+    color: #fff;
+}
+.rates-info-desktop {display:block}
+.rates-info-mobile {display:none}
+.small-screen-cal {display:none}
+.av-calendars-modal #tml-content-wrapper {
+    top: 10% !important;
+    right: 5% !important;
+    bottom: 10% !important;
+    left: 5% !important;
+}
+.rates-info-desktop iframe.iframedesktop {
+    height: 246px;
+    margin-left: 85px;
+    margin-top: 7px;
+}
+.villasuncalendar,.villaseacalendar,.villaskycalendar {
+    border:1px solid #dadada;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    padding: 0rem;
+    margin-bottom: 0rem;
+    width: 930px;
+    margin: 0 auto;
+}
+.villasuncalendar{background:url(../images/villa_sun_logo_round.png) left center no-repeat #ffffff; background-size: 85px}
+.villaseacalendar{background:url(../images/villa_sea_logo_round.png) left center no-repeat #ffffff; background-size: 85px}
+.villaskycalendar{background:url(../images/villa_sky_logo_round.png) left center no-repeat #ffffff; background-size: 85px}
+.rates-info-mobile iframe {
+    width: auto;
+    min-width: 450px;
+    margin-left: 10px;
+    height: 250px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.small-screen-cal iframe {
+    width: auto;
+    min-width: 300px;
+    margin-left: 34px;
+    height: 250px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.villasuncalendar_mobile,.villaseacalendar_mobile,.villaskycalendar_mobile {
+    border:1px solid #dadada;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    margin-bottom: 2rem;
+    width: 417px;
+    margin: 0 auto;
+}
+.villasuncalendar_mobile.small-scr,.villaseacalendar_mobile.small-scr,.villaskycalendar_mobile.small-scr {
+    border:1px solid #dadada;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    margin-bottom: 2rem;
+    width: 260px;
+    margin: 0 auto;
+}
+.villasuncalendar_mobile{background:url(../images/villa_sun_logo_round.png) center top no-repeat #ffffff; background-size: 85px}
+.villaseacalendar_mobile{background:url(../images/villa_sea_logo_round.png) center top no-repeat #ffffff; background-size: 85px}
+.villaskycalendar_mobile{background:url(../images/villa_sky_logo_round.png) center top no-repeat #ffffff; background-size: 85px}
+.ourvillas-page .box.rounded p.text-small, .ourvillas-page .box.rounded a.text-small {
+    font-size: 1.2rem;
+    line-height: normal;
+}
+.rates-under-title {
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-transform: none;
+}
+span.fx{font-weight:600}
+.plus span.fx:after{content:" +";font-size:1rem}
+.plusplus span.fx:after{content:" ++";font-size:1rem}
+.plus table.table, .plusplus table.table{margin-bottom:1rem}
+#rates-white table thead tr th{text-align:center}
+#rates-white table thead tr th:first-child{text-align:left;min-width:240px}
+#rates-white table tbody tr td{text-align:center}
+#rates-white table tbody tr td:first-child{text-align:left;font-size:1.1rem}
+#rates-white table tbody tr td:nth-child(2),#rates-white table tbody tr td:nth-child(3){padding-left:0rem;padding-right:0rem}
+#rates-white table tbody tr td:first-child span{font-size:1.3rem;font-weight:600}
+.table-price table{width:100%}
+.table-price table tbody tr td.left{display:none}
+.table-price table tbody tr td.left,.table-price table tbody tr td.right{border:none}
+.normal, .spo{padding-bottom:5rem}
+.spo thead{background:#ea4b35;color:#fff}
+.red-color{color:#ea4b35}
+.red-bkg{background-color:#ea4b35 !important}
+.spec-angle {
+position: absolute;
+right: 10%;
+top: 30%;
+font-size: 7rem;
+line-height: 7rem;}
+.buttons-in-rates a {
+    text-transform: uppercase;
+}
+.buttons-in-rates .column.width-6.left a {
+    border: 1px solid #5fba7d;
+    color: #fff;
+    background: #5fba7d;
+}
+.buttons-in-rates .column.width-6.left a:hover {
+    color: #fff !important;
+    background: #55a670;
+}
+.fullscreen-bkg-2{
+    background-image: url(../images/slider/villa-sky-seminyak-bali-5.jpg);
+}
+/*  CURRENCY SWITCHER ------------------------------------------------------------*/
+.currency-switcher {
+    position: relative;
+    padding: 0
+}
+.currency-switcher small {
+    color: #2c3136;
+    font-size: 1.3rem;
+    margin-right: 10px
+}
+.currency-switcher a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #464646
+}
+.currency-switcher a.control {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 0px 40px 0px 30px;
+    line-height: 30px;
+}
+.currency-switcher a.control:after {
+    content: "\f107";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 1.8rem;
+    line-height: normal;
+    color: #999
+}
+.currency-switcher button.close {
+    color: #888;
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+    position: relative;
+    float: right;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none
+}
+.currency-switcher button.close:hover,
+.currency-switcher button.close:focus {
+    color: #555
+}
+.currency-switcher ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    width: 118px;
+    z-index: 12;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: left;
+    list-style: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 6px 18px 1px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 6px 18px 1px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 18px 1px rgba(0, 0, 0, 0.12)
+}
+.currency-switcher ul li:first-child {
+    font-size: 1.2rem;
+    padding: 6px 14px;
+    color: #555;
+    background: #eee;
+    border-bottom: 1px solid#e7e7e7
+}
+.currency-switcher ul li {
+    padding: 0;
+    margin: 0
+}
+.currency-switcher ul li a {
+    display: block;
+    padding: 5px 12px;
+    color: #464646;
+    font-size: 1.2rem
+}
+.currency-switcher ul li a:hover,
+.currency-switcher ul li a:focus {
+    background: #eee
+}
+/* CURRENCY ICONS ------------------------------------------------------------*/
+i.currency {
+    background: url('../images/currency_icons.png') no-repeat;
+    background-size: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 55px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+i.currency.EUR {
+    background-position: 0px -60px
+}
+i.currency.GBP {
+    background-position: 0px -20px
+}
+i.currency.IDR {
+    background-position: 0px -100px
+}
+i.currency.MYR {
+    background-position: 0px -80px
+}
+i.currency.RUB {
+    background-position: 0px -120px
+}
+i.currency.AUD,
+i.currency.HKD,
+i.currency.NZD,
+i.currency.SGD,
+i.currency.USD {
+    background-position: 0px 0px
+}
+i.currency.CNY,
+i.currency.JPY {
+    background-position: 0px -40px
+}
+.currency-switcher ul li i.currency {
+    margin-top: 1px;
+    background-size: 20px;
+    width: 20px;
+    height: 20px
+}
+.currency-switcher ul li i.currency.EUR {
+    background-position: 0px -60px
+}
+.currency-switcher ul li i.currency.GBP {
+    background-position: 0px -20px
+}
+.currency-switcher ul li i.currency.IDR {
+    background-position: 0px -100px
+}
+.currency-switcher ul li i.currency.MYR {
+    background-position: 0px -80px
+}
+.currency-switcher ul li i.currency.RUB {
+    background-position: 0px -120px
+}
+.currency-switcher ul li i.currency.AUD,
+.currency-switcher ul li i.currency.HKD,
+.currency-switcher ul li i.currency.NZD,
+.currency-switcher ul li i.currency.SGD,
+.currency-switcher ul li i.currency.USD {
+    background-position: 0px 0px
+}
+.currency-switcher ul li i.currency.CNY,
+.currency-switcher ul li i.currency.JPY {
+    background-position: 0px -40px
+}
+#currency-disclaimer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    position: relative;
+}
+#currency-disclaimer p {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    text-align: center;
+    line-height: normal;
+}
+.our-villas-page #currency-disclaimer p {
+    padding: 3rem 2rem;
+    font-size: 1rem;
+}
+.closedisclamer {
+    position: absolute;
+    background: transparent;
+    right: 0px;
+    font-size: 3rem;
+    line-height: 2rem;
+    padding: 10px;
+    margin-bottom: 0;
+    color: #3482a8;
+    border: 0;
+    cursor: pointer;
+}
+.alert {
+    padding: 8px 14px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #f7e4c0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #b88733;
+}
+.alert-info {
+    background-color: #d9edf7;
+    border-color: #9fc7e2;
+    color: #3482a8;
+}
+
+@media only screen and (max-width: 1140px){
+	.testimonial-slider.guest-reviews {
+		min-height: 32rem !important
+	}
+}
+@media only screen and (max-width: 1060px){
+    .rates-info-desktop {display:none}
+    .rates-info-mobile {display:block}
+    .small-screen-cal {display:none}
+    .calendars-page .section-block {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 960px){
+	.header .v-align-middle > .button:not(.nav-icon){
+		background: transparent;
+		border-color: #ddd;
+		color: #bbb;
+	}
+	.testimonial-slider.guest-reviews {
+		min-height: 38rem !important
+	}
+	.grid-container.insta-grid.full-width.no-margins .grid .grid-item {
+		width: 12.5%;
+	}
+	.input-number__control {
+		width: 5rem;
+		height: 5rem;
+	}
+	.book-now-block li {
+        width: 50%;
+    }
+    .book-now-block li.book-now-guest-field {
+    	width: 100%;
+    }
+    .book-now-block input {
+    	text-align: center;
+    	line-height: 2.2rem !important;
+    	font-size: 1.3rem !important;
+    }
+    select, textarea, input {
+        font-size: 1.6rem !important
+    }
+    .book-now-av-link {
+    	display: none;
+    }
+    .width-9.book-now-form-960 {
+    	width: 100%;
+    }
+    .book-now-block i {
+		width: 5rem;
+		height: 5rem;
+		font-size: 1.5rem;
+		line-height: 5rem;
+    }
+    .bnow-buttons-block a.button {
+    	text-align: center;
+    	line-height: 2.2rem !important;
+    	font-size: 1.3rem !important;
+    }
+    .ui-datepicker {
+		width: 345px;
+	}
+    .book-now-block li.res-page-book-btn {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .rates-row {
+        max-width: 100%;
+    }
+    table.table tr:last-child>td{border-bottom:1px solid #eee}
+    #rates-white table.table thead tr th{text-align:left;border-bottom:1px solid #ddd}
+    #rates-white table.table tbody tr td{text-align:left}
+    #rates-white table.table tbody tr td.right{padding-left:1.5rem;padding-right:1.5rem}
+    #rates-white table.table thead tr th:last-child{border-bottom:none}
+    #rates-white table.table thead tr th:first-child{font-size:1.5rem}
+    #rates-white .spo table.table thead tr th:first-child{min-height:6rem}
+    #rates-white .spo table.table thead tr th:nth-child(2),#rates-white .spo table.table thead tr th:nth-child(3){padding-top:1.3rem;padding-bottom:1.3rem}
+    #rates-white .spo table.table tbody tr td:first-child{min-height:4.5rem;padding-top:1.4rem}
+    #rates-white .spo table.table tbody tr:last-child{width:100%}
+    #rates-white .spo table.table tbody tr:nth-child(2),
+    #rates-white .spo table.table tbody tr:nth-child(3),
+    #rates-white .spo table.table tbody tr:nth-child(4),
+    #rates-white .spo table.table tbody tr:nth-child(5),
+    #rates-white .spo table.table tbody tr:nth-child(6),
+    #rates-white .spo table.table tbody tr:nth-child(7),
+    #rates-white .spo table.table tbody tr:nth-child(8){width:auto}
+    #rates-white .normal table.table thead tr th:nth-child(2),#rates-white .normal table.table thead tr th:nth-child(3){padding-top:1.3rem;padding-bottom:1.3rem}
+    #rates-white .normal table.table thead tr th:first-child{min-height:11rem}
+    #rates-white .normal table.table tbody tr td:first-child{min-height:11rem}
+    #rates-white table thead tr th:first-child{min-width:15rem}
+    #rates-white .normal:before{content:"\f177  scroll to see more \f178";font-family:'FontAwesome';width:100%;display:block;text-align:right;font-size:1rem;margin-bottom:5px;color:#888}
+    .buttons-in-rates .row {
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 768px){
+	.text-xsmall{
+		font-size: 0.8rem;
+	}
+	#concept .hero-content {
+		margin-top: 2rem;
+	}
+	.testimonial-slider.guest-reviews {
+		min-height: 32rem !important
+	}
+	.ui-datepicker {
+		width: 265px;
+	}
+    .villas-block .column.width-3 {
+        width: 50%;
+    }
+    .villa-gallery .grid-item {
+        width: 50%
+    }
+    .av-button {
+        display: block;
+        position: absolute;
+        right: 1.5rem;
+        top: 0;
+        margin-top: 1.5rem;
+    }
+    .buttons-in-rates .column.width-6 {
+        text-align: center !important;
+    }
+}
+@media only screen and (max-width: 600px){
+	.testimonial-slider.guest-reviews {
+		min-height: 38rem !important
+	}
+    blockquote.xlarge p.smaller-on-mobile {
+        font-size: 1.8rem !important;
+    }
+    #photo-gallery .grid-item {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 480px){
+	#concept .thumbnail > a > img {
+		width: 7.5rem;
+	}
+	#concept .thumbnail {
+		margin-bottom: 3rem !important;
+	}
+	.testimonial-slider.guest-reviews {
+		min-height: 50rem !important
+	}
+	.grid-container.insta-grid.full-width.no-margins .grid .grid-item {
+		width: 25%;
+	}
+	.book-now-block li {
+        width: 100%;
+    }
+    .book-now-block input.button {
+        margin-top: 1.5rem;
+    }
+    .ui-datepicker {
+		width: 300px;
+	}
+    blockquote.xlarge p.smaller-on-mobile {
+        font-size: 1.5rem !important;
+    }
+    .av-button {
+        display: block;
+        position: relative;
+        right: 0;
+        top: 0;
+        float: left;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .rates-row .tab-nav li {
+        width: 33.33333%;
+        float: left;
+    }
+    .rates-row .tabs.xlarge .tab-nav>li a {
+        padding: 1.8rem 1rem;
+    }
+    .cur-sw-480 {
+        margin-bottom: 5rem;
+    }
+    #photo-gallery-filters li {
+        padding: 0.8rem 1rem;
+    }
+    .small-spec-mobile{font-size:1.2rem}
+    .rates-info-desktop {display:none}
+    .rates-info-mobile {display:none}
+    .small-screen-cal {display:block}
+}
+@media only screen and (max-width: 414px){
+    .rates-row .tabs.xlarge .tab-panes {
+        padding: 3rem 1.5rem;
+    }
+    #rates-white table thead tr th {
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width: 375px){
+	.testimonial-slider.guest-reviews p {
+		font-size: 1.5rem;
+	}
+	.testimonial-slider.guest-reviews {
+		min-height: 32rem !important
+	}
+    #rates-white table thead tr th {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+}
+@media only screen and (max-width: 320px){
+	#concept .hero-content-inner {
+		text-align: center;
+	}
+	#concept .thumbnail {
+		margin-top: 1rem !important;
+	}
+	#concept .thumbnail > a {
+		width: 25%;
+	}
+	#concept .thumbnail > a > img {
+		width: 7rem;
+	}
+	.testimonial-slider.guest-reviews {
+		min-height: 36rem !important
+	}
+	.ui-datepicker {
+		width: 270px;
+	}
+    .hide-on-320 {
+        display: none;
+    }
+    #photo-gallery-filters li {
+        padding: 0.8rem 0.8rem;
+    }
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (		 min-device-pixel-ratio: 2),
+only screen and (			min-resolution: 192dpi),
+only screen and (				min-resolution: 2dppx) {
+	.hero-5-1 .media-column {
+		background-image: url(../images/4s-villas-seminyak-bali@2x.jpg);
+	}
+    .fullscreen-bkg-2{
+        background-image: url(../images/slider/villa-sky-seminyak-bali-5@2x.jpg);
+    }
+}
